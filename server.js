@@ -126,5 +126,5 @@ app.get("/api/no2data", async (req, res) => {
 
 // Start the backend server
 app.listen(port, () => {
-  console.log(`✅ Backend server is running on http://localhost:${port}`);
+  console.log(` Backend server is running on http://localhost:${port}`);
 });
